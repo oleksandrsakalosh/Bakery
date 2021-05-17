@@ -13,8 +13,6 @@ Seller can sell products from stock. Program generate prices according to the co
 Program has database for products, ingredients and workers.
 Also you can register in system as baker or seller, but your password have to be at least 4 characters long, must have at least 1 letter and 1 number.
 
-Check early design of my project [here](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/Zamer.pdf).
-
 ## Environment
 
 - IntelliJ IDEA Educational Edition, version: 2020.3.2 Build id: IE-203.7717.75
