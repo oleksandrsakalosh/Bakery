@@ -1,6 +1,6 @@
 # Sakalosh Oleksandr
 
-![Logo](https://github.com/oleksandrsakalosh/Bakery/src/main/java/data/logo.jpg)
+![Logo](https://github.com/oleksandrsakalosh/Bakery/blob/main/src/main/java/data/logo.jpg)
 # Bakery system
 
 ## Short project information:	
@@ -13,7 +13,7 @@ Seller can sell products from stock. Program generate prices according to the co
 Program has database for products, ingredients and workers.
 Also you can register in system as baker or seller, but your password have to be at least 4 characters long, must have at least 1 letter and 1 number.
 
-Check early design of my project [here](https://github.com/oleksandrsakalosh/Bakery/Documentation/Zamer.pdf).
+Check early design of my project [here](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/Zamer.pdf).
 
 ## Environment
 
@@ -29,32 +29,32 @@ My project have:
 ### Hierarchy
 Inheritance, polymorphism, applied interface as well as correct encapsulation are applied in these hierarchies.
 
-![System hierarchy](https://github.com/oleksandrsakalosh/Bakery/Documentation/System%20hierarchy.png)
-![Account hierarchy](https://github.com/oleksandrsakalosh/Bakery/Documentation/Account%20hierarchy.png)
+![System hierarchy](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/System%20hierarchy.png)
+![Account hierarchy](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/Account%20hierarchy.png)
 
 You can see the inheritance between the BakerySystem and the more specific AccountSystem class. 
 The polymorphism can be seen in the getLogin method, which overlaps every class in the tree.
 
-![Method getLogin](https://github.com/oleksandrsakalosh/Bakery/Documentation/getLogin.png)
+![Method getLogin](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/getLogin.png)
 
 ### Aggregation
 You can see aggregation in AlertSystem. 
 
-![AlertSystem](https://github.com/oleksandrsakalosh/Bakery/Documentation/AlertSystem.png)
+![AlertSystem](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/AlertSystem.png)
 
 When user enter wrong information, system creates new AlertSystem class and pass text to show.
 
-![Creating alert](https://github.com/oleksandrsakalosh/Bakery/Documentation/Creating%20AlertSystem.png)
+![Creating alert](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/Creating%20AlertSystem.png)
 
 ### Serializaation
 I have implemented serialization in LogicSystem.
 
-![LogicSystem](https://github.com/oleksandrsakalosh/Bakery/Documentation/LogicSystem.png)
+![LogicSystem](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/LogicSystem.png)
 
 Settings being deserialized when program starts and serialized when admin changing it.
 
-![Deserialization](https://github.com/oleksandrsakalosh/Bakery/Documentation/Deserialization.png)
-![Serialization](https://github.com/oleksandrsakalosh/Bakery/Documentation/Serialization.png)
+![Deserialization](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/Deserialization.png)
+![Serialization](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/Serialization.png)
 
 ## Installation
 Make sure you have right version of Java and downloaded librarices.
@@ -67,10 +67,10 @@ You can register in system as:
 ## Project Skeleton
 UML Class Diagram:
 
-![Diagram](https://github.com/oleksandrsakalosh/Bakery/Documentation/Main%20Diagram.png)
+![Diagram](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/Main%20Diagram.png)
 
 Database Schema:
 
-![Database](https://github.com/oleksandrsakalosh/Bakery/Documentation/Invoice%20database.png)
+![Database](https://github.com/oleksandrsakalosh/Bakery/blob/main/Documentation/Invoice%20database.png)
 
 
